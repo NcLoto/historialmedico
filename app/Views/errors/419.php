@@ -1,0 +1,1 @@
+<?php App\Core\View::partial('errors/_base', ['code' => 419, 'ic' => 'clock', 'heading' => 'La página expiró', 'text' => 'Por seguridad, el formulario caducó. Vuelva a la página anterior, actualícela e intente de nuevo.']); ?>

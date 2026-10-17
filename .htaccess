@@ -1,0 +1,8 @@
+# Solo public/ es accesible por web: app, config, database, storage, docs, tests y .env quedan fuera.
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/public/
+RewriteRule ^(.*)$ public/$1 [L]
+<Files ".env*">
+Require all denied
+</Files>

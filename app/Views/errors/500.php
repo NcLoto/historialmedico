@@ -1,0 +1,1 @@
+<?php App\Core\View::partial('errors/_base', ['code' => 500, 'ic' => 'alert', 'heading' => 'Ocurrió un problema en el sistema', 'text' => 'No se pudo completar la solicitud. El incidente quedó registrado para el equipo técnico y no se perdió información ya guardada.']); ?>

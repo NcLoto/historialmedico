@@ -1,0 +1,16 @@
+.env
+storage/documentos_medicos/*
+storage/logs/*
+storage/mail/*
+!storage/**/.gitkeep
+storage/branding/*
+!storage/branding/.gitkeep
+storage/backups/
+storage/tareas.lock
+storage/avatars/*
+!storage/avatars/.gitkeep
+
+.claude/
+storage/tareas.lock
+.DS_Store
+Thumbs.db

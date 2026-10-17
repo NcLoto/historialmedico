@@ -1,0 +1,1 @@
+<?php App\Core\View::partial('errors/_base', ['code' => 403, 'ic' => 'lock', 'heading' => 'No tiene permiso para ver esta página', 'text' => 'Su cuenta no está autorizada para este recurso. Si considera que es un error, comuníquese con el administrador. El intento quedó registrado.']); ?>
